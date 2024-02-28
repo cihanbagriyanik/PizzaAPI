@@ -38,7 +38,7 @@ app.use(express.json());
 app.use(require("./src/middlewares/authentication"));
 
 // morgan-logger:
-app.use(require("./src/middlewares/logger"));
+// app.use(require("./src/middlewares/logger")); //*IN Comment coz of Deployment
 
 // res.getModelList:
 app.use(require("./src/middlewares/findSearchSortPage"));
