@@ -7,24 +7,21 @@
 ### Folder/File Structure:
 
 ```
-    .env
-    .gitignore
-    index.js
-    package.json
-    readme.md
     logs/
     src/
         configs/
             dbConnection.js
+            swagger.json
         controllers/
             auth.js
-            pizza.js
             order.js
+            pizza.js
+            token.js
             topping.js
             user.js
         helpers/
             passwordEncrypt.js
-            setToken.js
+            sendMail.js
             sync.js
         middlewares/
             authentication.js
@@ -33,14 +30,24 @@
             logger.js
             permissions.js
         models/
-            pizza.js
             order.js
+            pizza.js
+            token.js
             topping.js
             user.js
         routes/
             auth.js
-            pizza.js
+            document.js
             order.js
+            pizza.js
+            token.js
             topping.js
             user.js
+    .env
+    .gitignore
+    index.js
+    package.json
+    readme.md
+    swaggerAutogen.js
+
 ```
